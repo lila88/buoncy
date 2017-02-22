@@ -211,7 +211,7 @@ SECTION ABOUT US DETAILS
 			width: 53px;
 			background-color:#81868e;
 			border-radius: 100%;
-			padding-top: 11px;
+			padding-top: 6px;
 			margin-right: 27px;
 		a{
 			font-size: 30px;
@@ -317,7 +317,7 @@ SECTION OUR SERVICES
 			background-color:#81868e;
 			border: 1px solid #81868e;
 			border-radius: 100%;
-			padding-top: 11px;
+			padding-top: 5px;
 		padding-left: 11px;
 		margin-bottom: 17px;
 		a{
@@ -1210,6 +1210,8 @@ FOOTER
  	text-align: center;
   li{
  	display: inline-block;
+ 	//padding-top: 5px;
+ 	padding-left: 0;
  }}
  .our-services .block-service{
  	text-align: center;

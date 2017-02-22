@@ -313,7 +313,7 @@ SECTION ABOUT US DETAILS
   width: 53px;
   background-color: #81868e;
   border-radius: 100%;
-  padding-top: 11px;
+  padding-top: 6px;
   margin-right: 27px;
 }
 /* line 216, ../sass/style.scss */
@@ -440,7 +440,7 @@ SECTION OUR SERVICES
   background-color: #81868e;
   border: 1px solid #81868e;
   border-radius: 100%;
-  padding-top: 11px;
+  padding-top: 5px;
   padding-left: 11px;
   margin-bottom: 17px;
 }
@@ -1460,58 +1460,59 @@ FOOTER
   /* line 1211, ../sass/style.scss */
   .our-services .block-service .icon-services ul li {
     display: inline-block;
+    padding-left: 0;
   }
 
-  /* line 1214, ../sass/style.scss */
+  /* line 1216, ../sass/style.scss */
   .our-services .block-service {
     text-align: center;
   }
-  /* line 1216, ../sass/style.scss */
+  /* line 1218, ../sass/style.scss */
   .our-services .block-service .skills {
     text-align: center;
   }
-  /* line 1218, ../sass/style.scss */
+  /* line 1220, ../sass/style.scss */
   .our-services .block-service .skills ul li ul li.block-count {
     margin-left: 50px;
   }
 
-  /* line 1225, ../sass/style.scss */
+  /* line 1227, ../sass/style.scss */
   .works, .works2 {
     margin-top: 0 !important;
     padding-top: 30px !important;
   }
 
-  /* line 1229, ../sass/style.scss */
+  /* line 1231, ../sass/style.scss */
   .our-team .content-team .content-img {
     text-align: center;
   }
-  /* line 1231, ../sass/style.scss */
+  /* line 1233, ../sass/style.scss */
   .our-team .content-team .content-img img {
     margin: 0 !important;
   }
 
-  /* line 1234, ../sass/style.scss */
+  /* line 1236, ../sass/style.scss */
   .text-testim {
     padding: 0 !important;
     text-align: justify;
   }
 
-  /* line 1238, ../sass/style.scss */
+  /* line 1240, ../sass/style.scss */
   .block-context {
     padding: 0 !important;
   }
 
-  /* line 1241, ../sass/style.scss */
+  /* line 1243, ../sass/style.scss */
   .radio {
     margin-top: 0	!important;
   }
 
-  /* line 1244, ../sass/style.scss */
+  /* line 1246, ../sass/style.scss */
   .blog .block-blog .bullets .radio input[type="radio"] + label span {
     display: inline-block;
   }
 
-  /* line 1247, ../sass/style.scss */
+  /* line 1249, ../sass/style.scss */
   .block-fold-footer {
     text-align: center;
   }
