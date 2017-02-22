@@ -1065,10 +1065,10 @@ SECTION CONTACTS
 					.col-inpt{
 						padding:0 20px!important;
 						input,textarea{
-							margin-bottom: 30px;
+							margin-bottom: 30px!important;
 						}
 						input[type='email'], input[type='text']{
-							width: 100%;
+							width: 100%!important;
 							background: transparent!important;
 							color:#ffffff;
 							font-family: "OpenSans-Regular";
@@ -1186,7 +1186,8 @@ margin-bottom: 37px;
 FOOTER
 */
 
- @media (max-width: 960px) {
+ /* Medium Devices, Desktops */
+@media only screen and (max-width : 993px) {
  
 .title-subtitle p.subtitle {
 	padding: 0 0 60px 0;
@@ -1210,11 +1211,17 @@ FOOTER
   li{
  	display: inline-block;
  }}
- .our-services .block-service .skills{ 
+ .our-services .block-service{
+ 	text-align: center;
+  .skills{ 
  	text-align: center;
  	ul li ul li.block-count{
- 	margin-left: 0;
- }}
+ 	margin-left: 50px;
+ }}}
+ .our-services .block-service .skills ul {
+    //display: block;
+   // margin-top: 0px;
+}
  .works,.works2{
  	margin-top: 0!important;
  	padding-top: 30px!important;
@@ -1237,4 +1244,12 @@ text-align: center;
 .blog .block-blog .bullets .radio input[type="radio"] + label span{
 	display: inline-block;
 } 
+.block-fold-footer{
+	text-align: center;
+}
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 769px) {
+ 
 }
